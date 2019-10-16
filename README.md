@@ -19,3 +19,5 @@
   * Webpack
   * Chrome 開發人員工具
   * package.json
+  * 實作筆記
+    * 資料分頁

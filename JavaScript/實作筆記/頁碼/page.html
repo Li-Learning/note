@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <div id="num"></div>
+  <ul id="page"></ul>
+  <script>
+    const data = [{a:0},{a:1},{a:2},{a:3},{a:4},{a:5},{a:6},{a:7},{a:8},{a:9},{a:10},{a:11}];
+    const page = document.getElementById('page');
+    let totalPage = Math.ceil(data.length / 5);
+    for(let i = 1; i<=totalPage;i++){
+      page.innerHTML+= `
+        <li><a href="#" data-page="${i}">${i}</a></li>
+      `
+    }
+    const num = document.getElementById('num');
+    // 判斷 click 第幾頁 1:0~4 2:5~9 3:10~11
+    page.addEventListener('click',function(e){
+      if(e.target.tagName!=='A'){return};
+      let getPage = parseInt(e.target.dataset.page);
+      (function(page){
+        let str = '';
+        let i =(page-1)*5
+        let last = i + 5;
+        for (i; i<last; i++){
+          if(!data[i]){break};
+          str += data[i].a + ' ';
+        }
+        num.innerHTML = str;
+      })(getPage);
+    })
+  </script>
+</body>
+</html>
