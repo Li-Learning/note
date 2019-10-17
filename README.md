@@ -14,7 +14,7 @@
   * HTML
     * 標籤
     * head 設定
-* RWD
+  * RWD
 * 瀏覽器
   * cookie & localStorage & sessionStorage
 * 工具
