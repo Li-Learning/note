@@ -11,8 +11,6 @@
   * CSS 規範
     * BEM
     * function CSS
-  * CSS 實作整理
-    * 漢堡選單動畫
   * HTML
     * 標籤
     * head 設定
@@ -23,5 +21,6 @@
   * Webpack
   * Chrome 開發人員工具
   * package.json
-  * 實作筆記
-    * 資料分頁
+* 實作筆記
+  * 資料分頁
+  * 漢堡選單動畫
