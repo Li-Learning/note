@@ -21,6 +21,8 @@
   * Webpack
   * Chrome 開發人員工具
   * package.json
+  * 單元測試 
+    * mocha & chai
 * 實作筆記
   * 資料分頁
   * 漢堡選單動畫
