@@ -6,6 +6,7 @@
   * 物件&陣列
   * 迴圈
   * DOM
+  * Promise
 * HTML / CSS
   * CSS
   * CSS 規範
