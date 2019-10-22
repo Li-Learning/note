@@ -22,7 +22,9 @@
   * 也可以用 `function return` 的方式，也可代入參數
   ```
   const logAsync = (message, time) => {
-    // ...
+    return new Promise((resolve, reject) => {
+      // ...  
+    });
   }
   ```
   #### 執行
