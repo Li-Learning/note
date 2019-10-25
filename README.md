@@ -7,6 +7,7 @@
   * 判斷式
   * 物件&陣列
   * 迴圈
+  *   
   * DOM
   * Promise
 * HTML / CSS
@@ -23,6 +24,8 @@
 * 工具
   * 開發網站所需工具
   * Webpack
+    * 實作
+    * 常用套件
   * Chrome 開發人員工具
   * package.json
   * 單元測試 
