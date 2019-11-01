@@ -4,10 +4,11 @@
 * JavaScript
   * Framework
     * 框架比較
+  * 前端模組化
+    * commonJS
   * 判斷式
   * 物件&陣列
   * 迴圈
-  *   
   * DOM
   * Promise
 * HTML / CSS
